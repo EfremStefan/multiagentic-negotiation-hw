@@ -20,12 +20,14 @@ python -m pip install -r requirements.txt
 
 1. Setup .env file
    ```
-   OPENAI_API_KEY=sk-... Get a key from [platform.openai.com/api-keys](https://platform.openai.com/api-keys) (needs API billing credits... :( ).
+   OPENAI_API_KEY=sk-... 
    ```
 2. Open and run:
    ```
    python -m jupyter notebook negotiation_exercises.ipynb
    ```
+
+   Get a key from [platform.openai.com/api-keys](https://platform.openai.com/api-keys) (needs API billing credits... :( )
 ---
 
 ## 3. Homework 2 — local Ollama
