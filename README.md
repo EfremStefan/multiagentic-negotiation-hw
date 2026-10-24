@@ -1,16 +1,14 @@
 # Negotiation homeworks
 
-Two notebooks, same idea (Buyer / Seller / Mediator + exercises):
 
 | Notebook | Backend |
 |----------|---------|
-| `negotiation_exercises.ipynb` | OpenAI GPT (cloud) |
+| `negotiation_exercises.ipynb` | OpenAI GPT 5-4 |
 | `local_negotiation_exercises.ipynb` | Ollama `llama3.2` (local) |
 
 ---
 
-## 1. Install Python packages (once)
-
+## 1. Install Python packages
 ```powershell
 cd "E:\MasterSem1\An2Sem1\MultiAgentic AI\homework1_negotiation"
 python -m pip install -r requirements.txt
@@ -18,19 +16,16 @@ python -m pip install -r requirements.txt
 
 ---
 
-## 2. Homework 1 — GPT
+## 2. Homework 1 — GPT tokens
 
-1. Copy `.env.example` to `.env` and put your key in it:
+1. Setup .env file
    ```
-   OPENAI_API_KEY=sk-...
+   OPENAI_API_KEY=sk-... Get a key from [platform.openai.com/api-keys](https://platform.openai.com/api-keys) (needs API billing credits... :( ).
    ```
 2. Open and run:
-   ```powershell
+   ```
    python -m jupyter notebook negotiation_exercises.ipynb
    ```
-
-Get a key at [platform.openai.com/api-keys](https://platform.openai.com/api-keys) (needs API billing credits).
-
 ---
 
 ## 3. Homework 2 — local Ollama
@@ -48,7 +43,3 @@ Get a key at [platform.openai.com/api-keys](https://platform.openai.com/api-keys
 No API key needed.
 
 ---
-
-## Tip
-
-In Cursor you can also open either `.ipynb` and run cells with **Shift+Enter** (pick a Python kernel first).
